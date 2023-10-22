@@ -1,0 +1,65 @@
+/* Contact Heading Styling */
+h2 {
+    color: white;
+    text-align: center;
+    font-family:inherit;
+    word-spacing: 2px;
+    font-size: 40px;
+}
+
+h3{
+    color: white;
+}
+
+.contac{
+    display:flex;
+    flex-direction: row;
+    height: 50vh;
+    width: 100vw;
+}
+
+#Contact p{
+    color:whitesmoke;
+}
+
+hr {
+    border-bottom-width: 2px;
+}
+
+button[type="submit"]{
+    font-size: 1.1rem;
+    background: linear-gradient(to right, #2857a4 70%, #403066);
+    color:white;
+    padding: 5px 15px 5px 15px;
+    letter-spacing: 1.5px;
+    block-size: 15%;    
+    position:relative;
+}
+
+.con{
+    /* margin : 30px 700px 200px 150px; */
+    width : 40vw;
+    height: 40vh;
+    padding: 0px 150px 10px 160px;
+}
+
+input {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    /* overflow: visible; */
+    font: bold;
+    font-size: large;
+    color:cornsilk;
+}
+
+#Contact p {
+    width: 550px;
+}
+
+.tact {
+    width: 60vw;
+    height : 40vh;
+    padding: -5px 20px 30px 20px;    
+}
